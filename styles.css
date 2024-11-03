@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+    body {
+    line-height: 1.6;
+    color: #CE5A67;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-light-color-simple-gourmet-dry-pot-beef-belly-e-commerce-food-image_175204.jpg");
+    background-size: cover;
+}
+    header {
+    background-color: #b86871;
+    color: #662549;
+    padding: 20px 0;
+    text-align: center;
+}
+    header img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+    header h1 {
+    margin-bottom: 10px;
+    
+}
+    header p {
+    font-style: italic;
+    font-size:larger;
+}
+    nav {
+    background-color: #c7848c;
+    text-align: center;
+}
+    nav ul {
+    list-style: none;
+}
+    nav ul li {
+    display: inline;
+}
+    nav ul li a {
+    color: #fff;
+    font-size:larger;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+    nav ul li a:hover {
+    background-color: #555;
+    transition: background-color 0.3s ease;
+}
+    main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+    main section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.5); /* Adjust the transparency (0 is fully transparent, 1 is 
+    fully opaque) */
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+    main section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+    main section p {
+    margin-bottom: 20px;
+}
+    main section a {
+    text-decoration: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+    main section a:hover {
+    background-color: #555;
+    transition: background-color 0.3s ease;
+}
+    footer {
+    background-color: #c7848c;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+    footer p {
+    margin: 0;
+}
